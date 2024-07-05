@@ -1,0 +1,71 @@
+body{background-color: #60D4AE;}
+
+.container{
+    width: 100%;
+    max-width: 540px;
+    background: #207F60;
+    margin: 190px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.title{
+    color:#ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header,.main,.articleSpan{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputDate{
+    /* background-color: #00AA72; */
+    padding: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color: #207F60; */
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn{
+    background-color: #00AA72; 
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color: #ffff; */
+    font-size: 18px;
+}
+.btn:hover {
+    background: #006B53 ;
+    /* box-shadow: none; */
+    box-shadow:0px -6px 0 #60D4AE inset;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.spanText{
+    padding-top: 20px;
+    color: #ffff;
+    font-size: 18px;
+    display: none;
+}
+.spanTextError{
+    display: none;
+    padding-top: 20px;
+    color: #FF8940;
+    font-size: 18px;
+}
